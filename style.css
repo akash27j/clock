@@ -1,0 +1,48 @@
+#clockcon{
+    position: relative;
+    margin:auto;
+ 
+    height: 42vw;
+    width: 42vw;
+    background: url(clock.png);
+    background-size: 100%;
+
+
+}
+
+#hr, #min, #sec {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom
+   
+}
+
+#hr{
+    background-color: brown;
+    width: 2%;
+    height: 24%;
+    top: 25.7%;
+    left: 49.1%;
+    
+}
+#min{
+    width: 2%;
+    height: 29%;
+    top: 21%;
+    left: 49.1%;
+  
+    
+
+}
+#sec{
+    width: 1%;
+    height: 33%;
+    top: 17%;
+    left: 49.5%;
+    
+
+}
+#ak{
+    width: fit-content;
+}
